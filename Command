@@ -1,0 +1,97 @@
+//goto local directory and select project and open by gith bash
+01957@saddamnvn MINGW64 /e/PHPPROJECT/www/shughran (main)
+
+
+$ git checkout abdulbari //command 1
+
+
+Switched to a new branch 'abdulbari'
+M       app/config/config.example.php
+M       app/config/confiq.php
+M       app/config/database.example.php
+M       app/config/routes.php
+M       app/controllers/admin/Departmentsreport.php
+M       app/controllers/admin/departments_report/Debate.php
+M       app/controllers/admin/departments_report/Education.php
+M       app/controllers/admin/departments_report/Foundation.php
+M       app/controllers/admin/departments_report/Library.php
+M       app/controllers/admin/departments_report/Literature.php
+M       app/controllers/admin/departments_report/Manpower.php
+M       app/controllers/admin/departments_report/Publicity.php
+M       themes/default/admin/views/departmentsreport/college/college_page_three.php
+M       themes/default/admin/views/departmentsreport/college/college_page_three_entry.php
+M       themes/default/admin/views/departmentsreport/college/college_page_two.php
+M       themes/default/admin/views/departmentsreport/college/college_page_two_entry.php
+M       themes/default/admin/views/departmentsreport/debate/bitorko_page_one.php
+M       themes/default/admin/views/departmentsreport/debate/bitorko_page_one_entry.php
+M       themes/default/admin/views/departmentsreport/debate/bitorko_page_two.php
+M       themes/default/admin/views/departmentsreport/debate/bitorko_page_two_entry.php
+M       themes/default/admin/views/departmentsreport/education/shikha_page_one_entry.php
+M       themes/default/admin/views/departmentsreport/education/shikha_page_two.php
+M       themes/default/admin/views/departmentsreport/education/shikha_page_two_entry.php
+M       themes/default/admin/views/departmentsreport/foundation/foundation_bivag.php
+M       themes/default/admin/views/departmentsreport/foundation/foundation_bivag_entry.php
+M       themes/default/admin/views/departmentsreport/library/pathagar_bivag.php
+M       themes/default/admin/views/departmentsreport/library/pathagar_bivag_entry.php
+M       themes/default/admin/views/departmentsreport/literature/add_literature_publication.php
+M       themes/default/admin/views/departmentsreport/literature/add_literature_songothon.php
+M       themes/default/admin/views/departmentsreport/literature/literature_page_one.php
+M       themes/default/admin/views/departmentsreport/literature/literature_page_one_entry.php
+M       themes/default/admin/views/departmentsreport/literature/literature_page_two.php
+M       themes/default/admin/views/departmentsreport/literature/literature_page_two_entry.php
+M       themes/default/admin/views/departmentsreport/manpower/manpower_bivag.php
+M       themes/default/admin/views/departmentsreport/manpower/manpower_bivag_entry.php
+M       themes/default/admin/views/departmentsreport/publicity/publicity_page_one.php
+M       themes/default/admin/views/departmentsreport/publicity/publicity_page_one_entry.php
+M       themes/default/admin/views/departmentsreport/publicity/publicity_page_two.php
+M       themes/default/admin/views/departmentsreport/publicity/publicity_page_two_entry.php
+Branch 'abdulbari' set up to track remote branch 'abdulbari' from 'origin'.
+
+01957@saddamnvn MINGW64 /e/PHPPROJECT/www/shughran (abdulbari)
+
+
+
+$ git add . ////command 2
+
+
+
+
+01957@saddamnvn MINGW64 /e/PHPPROJECT/www/shughran (abdulbari)
+$ git commit -m "first abdul bari changed 11_20_23"
+[abdulbari e31d5719] first abdul bari changed 11_20_23
+ 41 files changed, 8821 insertions(+), 3452 deletions(-)
+ create mode 100644 .vscode/launch.json
+ create mode 100644 themes/default/admin/views/departmentsreport/foundation/add_foundation_trust.php
+ rewrite themes/default/admin/views/departmentsreport/manpower/manpower_bivag.php (62%)
+
+01957@saddamnvn MINGW64 /e/PHPPROJECT/www/shughran (abdulbari)
+
+
+$ git push origin abdulbari  //command 3
+
+
+
+
+Enumerating objects: 110, done.
+Counting objects: 100% (110/110), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (61/61), done.
+Writing objects: 100% (62/62), 75.87 KiB | 356.00 KiB/s, done.
+Total 62 (delta 52), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (52/52), completed with 43 local objects.
+To github.com:rabiul0420/shughran.git
+   b68d240f..e31d5719  abdulbari -> abdulbari
+
+01957@saddamnvn MINGW64 /e/PHPPROJECT/www/shughran (abdulbari)
+
+
+$ git pull origin abdulbari  //command 4
+
+
+
+From github.com:rabiul0420/shughran
+ * branch              abdulbari  -> FETCH_HEAD
+Already up to date.
+
+01957@saddamnvn MINGW64 /e/PHPPROJECT/www/shughran (abdulbari)
+$
